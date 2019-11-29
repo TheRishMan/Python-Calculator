@@ -61,10 +61,6 @@ class Calculator:
         Button(master, text = ".", width = 11, command = lambda:self.action(".")).grid(row = 4, column = 2)
 
 
-
-        
-
-
 root = Tk()
 GUI = Calculator(root)
 root.mainloop()
