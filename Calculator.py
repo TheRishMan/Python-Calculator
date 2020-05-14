@@ -56,7 +56,7 @@ class Calculator:
         Button(master, text = "*", width = 11, command = lambda:self.action('*')).grid(row = 3, column = 3)
         Button(master, text = "0", width = 11, command = lambda:self.action(0)).grid(row = 4, column = 0)
         Button(master, text = "Clear", width = 11, command = lambda:self.clear()).grid(row = 4, column = 1)
-        Button(master, text = "=", width = 50, command = lambda:self.calculate()).grid(row = 5, column = 0, columnspan = 4, padx = 10, pady = 10)
+        Button(master, text = "=", width = 57, command = lambda:self.calculate()).grid(row = 5, column = 0, columnspan = 4, padx = 10, pady = 10)
         Button(master, text = "/", width = 11, command = lambda:self.action("/")).grid(row = 4, column = 3)
         Button(master, text = ".", width = 11, command = lambda:self.action(".")).grid(row = 4, column = 2)
 
